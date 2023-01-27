@@ -1,0 +1,109 @@
+/********** Base styles **********/
+*{ 
+font-family:arial, sans-serif, helvetica; 
+font-style: normal;
+font-size: 16px;
+box-sizing: border-box;
+margin: 0; padding: 0;
+color: rebeccapurple;
+}
+
+
+h1 { 
+		text-align: center;
+		font-size: 175%;
+		margin-bottom: 40px;
+		color: black;
+}
+
+h2,h3,h4{ 
+	font-size: 125%;
+	text-align: center;
+	font-weight: bold;
+	border: 1px solid black;
+	max-width: 30%;
+	margin-left: 310px;
+	margin-bottom:5px;
+	margin-top: 0px;
+	padding: 0px;
+ }
+
+  h2 {
+ 	background-color: Pink;
+ 	color: black;
+ }
+
+  h3 {
+ 	background-color: red;
+ 	color: white;
+ }
+
+  h4 {
+ 	background-color: greenyellow;
+ 	color: black;}
+
+div{
+	background-color: lightgray;
+	padding: 10px 0px 10px 10px;
+	border: 1px solid black;
+	margin:0 auto;
+	margin-bottom: 10px;
+	max-width: 400px; 	
+}
+
+/*Large devices*/
+@media (min-width: 992px){
+	.box1{ 
+		float: left;
+
+		margin-left:20px;
+		margin-right: 60px;
+		max-width:30%
+		}
+	.box2{
+		float: left;
+		max-width:30%;
+		}
+
+	.box3{
+		float:right;
+		max-width:30%;
+		margin-right:20px;
+	}
+
+}
+/*Medium devices*/
+@media (min-width: 768px) and (max-width:991px){ 
+	.box1{
+		float: left;
+		max-width:43%;
+		margin-bottom: 30px;
+		margin-left:40px;
+		margin-right:0px;
+		}
+	.box2{		
+		float:right;
+		max-width: 43%;
+		margin-bottom: 30px;
+		margin-right: 40px;
+		}
+	
+	.box3{ 
+		margin-top: 40px;
+		clear: both;
+		max-width: 100%;
+		margin-left:40px;
+		margin-right:40px;
+		}
+
+
+}
+	
+/*small devices*/
+@media (max-width:767px){ 
+	div{
+	margin-top:30px;}
+
+	
+
+}
