@@ -22,10 +22,10 @@ h2,h3,h4{
 	font-weight: bold;
 	border: 1px solid black;
 	max-width: 30%;
-	margin-left: 310px;
 	margin-bottom:5px;
-	margin-top: 0px;
-	padding: 0px;
+	position: relative;
+	bottom: 11px;
+	left: 231px;
  }
 
   h2 {
@@ -48,7 +48,8 @@ div{
 	border: 1px solid black;
 	margin:0 auto;
 	margin-bottom: 10px;
-	max-width: 400px; 	
+	max-width: 400px; 
+	position: relative;	
 }
 
 /*Large devices*/
@@ -71,6 +72,9 @@ div{
 		margin-right:20px;
 	}
 
+	h2,h3,h4 {
+		position: relative;
+		left: 70.2%;}
 }
 /*Medium devices*/
 @media (min-width: 768px) and (max-width:991px){ 
@@ -95,15 +99,18 @@ div{
 		margin-left:40px;
 		margin-right:40px;
 		}
-
+	h2,h3,h4 {
+		position: relative;
+		left: 70.2%;}
 
 }
 	
 /*small devices*/
 @media (max-width:767px){ 
 	div{
-	margin-top:30px;}
-
-	
+		margin-top:30px;}
+	h2,h3,h4 {
+		position:relative;
+		left:70.3%;}
 
 }
