@@ -9,108 +9,73 @@ color: rebeccapurple;
 }
 
 
-h1 { 
+.container {
+	display: flex;
+	flex-direction: row;
+	background: transparent;
+	width: 100vw;
+	flex-wrap: wrap;
+}
+
+.menuitem{ 
+	display: flex;
+  	flex-direction: column;
+  	background-color: lightgray;
+  	padding: 10px 0px 10px 10px;
+  	border: 1px solid black;
+  	margin: 0 auto 10px auto;
+  	flex: 0 1 32%;
+  	min-width: 400px;
+  	max-width: 600px;
+ }
+
+
+	h1 { 
 		text-align: center;
 		font-size: 175%;
 		margin-bottom: 40px;
 		color: black;
 }
 
-h2,h3,h4{ 
-	font-size: 125%;
-	text-align: center;
-	font-weight: bold;
-	border: 1px solid black;
-	max-width: 30%;
-	margin-bottom:5px;
-	position: relative;
-	bottom: 11px;
-	left: 231px;
+	h2{ 
+		font-size: 125%;
+		text-align: center;
+		font-weight: bold;
+		border: 1px solid black;
+		align-self: flex-end;
+		margin-right: 10px;
+ 	 	margin-bottom: 10px;
+  		padding: 5px 20px;
+		max-width: 30%;
+		margin-bottom:5px;
+		position: relative;
+		bottom: 11px;
+		left: 11px;
  }
 
-  h2 {
+  .container .menuitem:nth-child(1) h2{ 
  	background-color: Pink;
  	color: black;
  }
 
-  h3 {
+  .container .menuitem:nth-child(2) h2{
  	background-color: red;
- 	color: white;
- }
+ 	color: white;}
 
-  h4 {
+  .container .menuitem:nth-child(3) h2{
  	background-color: greenyellow;
  	color: black;}
 
-div{
-	background-color: lightgray;
-	padding: 10px 0px 10px 10px;
-	border: 1px solid black;
-	margin:0 auto;
-	margin-bottom: 10px;
-	max-width: 400px; 
-	position: relative;	
-}
 
 /*Large devices*/
 @media (min-width: 992px){
-	.box1{ 
-		float: left;
-
-		margin-left:20px;
-		margin-right: 60px;
-		max-width:30%
-		}
-	.box2{
-		float: left;
-		max-width:30%;
-		}
-
-	.box3{
-		float:right;
-		max-width:30%;
-		margin-right:20px;
-	}
-
-	h2,h3,h4 {
-		position: relative;
-		left: 70.2%;}
+ 
 }
 /*Medium devices*/
 @media (min-width: 768px) and (max-width:991px){ 
-	.box1{
-		float: left;
-		max-width:43%;
-		margin-bottom: 30px;
-		margin-left:40px;
-		margin-right:0px;
-		}
-	.box2{		
-		float:right;
-		max-width: 43%;
-		margin-bottom: 30px;
-		margin-right: 40px;
-		}
-	
-	.box3{ 
-		margin-top: 40px;
-		clear: both;
-		max-width: 100%;
-		margin-left:40px;
-		margin-right:40px;
-		}
-	h2,h3,h4 {
-		position: relative;
-		left: 70.2%;}
+	.container div:nth-child(3){box-flex: justify-content-center;}
 
 }
 	
 /*small devices*/
-@media (max-width:767px){ 
-	div{
-		margin-top:30px;}
-	h2,h3,h4 {
-		position:relative;
-		left:70.3%;}
-
-}
+@media (max-width:767px){}
