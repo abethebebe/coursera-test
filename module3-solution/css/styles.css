@@ -1,3 +1,5 @@
+*{box-sizing: border-box;}
+
 /*navbar header*/
 .nav-item{
   text-align: center;
@@ -30,5 +32,6 @@ text-decoration:none;}
   border: 2px solid;
   margin: auto;
   background-color: lightcoral;
-  margin: 10px;}
+  margin: 5px;
+padding: 0;}
 
