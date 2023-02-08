@@ -1,21 +1,43 @@
-*{box-sizing: border-box;}
+*{box-sizing: border-box;
+font-family:arial, sans-serif, helvetica; 
+font-style: normal;
+font-size: 16px;
+color: rebeccapurple;
+}
 
 /*navbar header*/
-.nav-item{
-  text-align: center;
-}
+
 h2 {text-align: center;
-padding: 15px;}
+padding: 15px;
+font-size: 175%;
+font-weight: bold;}
+
 h3 {text-align: center;
-  font-size: .8em;
+  font-size: 125%;
   font-weight: bold;
   }
 
-#main-content {
-  border: 2px solid;
-  margin: auto;
-  background-color: lightcoral;
+.menuitem {border: 2px solid;
+background-color: greenyellow;
+margin: 0 auto 10px auto;
 }
+
+.container .menuitem h3 {
+  background-color: Pink;
+  color: black;
+ }
+
+
+#nav-list {
+  margin-top: 10px;
+  background-color:plum;}
+
+#nav-list a {
+  text-align: center;
+}
+#nav-list a:hover { background: #E7E7E7;
+}
+
 
  .navbar-brand h1 {
 font-size: 1.5em;
@@ -26,12 +48,9 @@ margin-bottom: 0;
 line-height: .75;
 text-decoration:none;}
 
+/*body*/
+
+.
 /*Media queries*/
 
-@media (max-width: 575.98px){#main-content {
-  border: 2px solid;
-  margin: auto;
-  background-color: lightcoral;
-  margin: 5px;
-padding: 0;}
 
