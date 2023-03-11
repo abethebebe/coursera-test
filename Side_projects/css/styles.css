@@ -1,0 +1,52 @@
+*{
+	box-sizing: border-box;
+font-size: 16px;
+font-family: 'Oxygen', sans-serif;
+color: #F6EDD9;
+}
+
+
+
+/* Main page of the websitie /////////////////////////////////////////////////////////////////////////////////*/
+#main-content { 
+	background-color: #00AD00;
+	background-image: url("../image/pexels-photo-2662816.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover; /*This is used to stretch the background property tot he size of the window*/
+	opacity: 0.8;
+	background-size: ;
+	}
+p {
+	color:white;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+h1{
+	text-align: center;
+	text-transform: uppercase;
+}
+
+
+/*donate button ////////////////////////////////////////////////////////////////////////////////////*/
+
+#donate {
+	background-color:#9999CC;
+	background-image: url("../image/1000_F_388965063_0deEcKEHzgs7j9zZiVNdWjK4YVGEeLdV.jpg");
+	background-size: cover;
+	color:#F4FCF1;
+}
+
+
+
+
+
+
+
+
+/*footer//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+footer{
+	background-color:#00AD00;
+}
+
+.footer-content p{ 
+text-align:center; }

@@ -1,0 +1,63 @@
+* {  
+box-sizing: border-box;
+font-size: 16px;
+font-family: Comic Sans MS, Serif;
+}
+
+/*Header*/
+#navheader {
+	background-color:#EE9098 ;
+
+}
+
+.navbar-brand {
+
+}
+
+#relationshiptab {
+	background-color: #65BC89 ;
+}
+
+
+/*Mainbody*/
+
+
+#maincontent {
+	background-color:#89CFF0 ;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+h1 { 
+	font-family: Comic Sans MS;
+
+}
+
+/*UsPage USpage */
+#usmaincontent {
+	font-weight: normal;
+	color: #89CFF0;
+	margin: 0 10px 0 10px;
+	background-image: url(".../image/IMG_E5448.JPG");
+	background-repeat: no-repeatcd;
+
+}
+
+#usmaincontent h1 {
+	font-size: 250%;
+	text-shadow: 2px 2px 3px #666666;
+	padding-bottom: 10px;
+}
+#usmaincontent h2 {
+	font-size: 90%;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+
+}
+#usmaincontent h3 {
+	font-size: 150%;
+
+}
+#usmaincontent p { 
+	color:black; 
+}

@@ -1,0 +1,81 @@
+/********** Base styles **********/
+*{ 
+font-family:arial, sans-serif, helvetica; 
+font-style: normal;
+font-size: 16px;
+box-sizing: border-box;
+margin: 0; padding: 0;
+color: rebeccapurple;
+}
+
+
+.container {
+	display: flex;
+	flex-direction: row;
+	background: transparent;
+	width: 100vw;
+	flex-wrap: wrap;
+}
+
+.menuitem{ 
+	display: flex;
+  	flex-direction: column;
+  	background-color: lightgray;
+  	padding: 10px 0px 10px 10px;
+  	border: 1px solid black;
+  	margin: 0 auto 10px auto;
+  	flex: 0 1 32%;
+  	min-width: 400px;
+  	max-width: 600px;
+ }
+
+
+	h1 { 
+		text-align: center;
+		font-size: 175%;
+		margin-bottom: 40px;
+		color: black;
+}
+
+	h2{ 
+		font-size: 125%;
+		text-align: center;
+		font-weight: bold;
+		border: 1px solid black;
+		align-self: flex-end;
+		margin-right: 10px;
+ 	 	margin-bottom: 10px;
+  		padding: 5px 20px;
+		max-width: 30%;
+		margin-bottom:5px;
+		position: relative;
+		bottom: 11px;
+		left: 11px;
+ }
+
+  .container .menuitem:nth-child(1) h2{ 
+ 	background-color: Pink;
+ 	color: black;
+ }
+
+  .container .menuitem:nth-child(2) h2{
+ 	background-color: red;
+ 	color: white;}
+
+  .container .menuitem:nth-child(3) h2{
+ 	background-color: greenyellow;
+ 	color: black;}
+
+
+/*Large devices*/
+@media (min-width: 992px){
+ 
+}
+/*Medium devices*/
+@media (min-width: 768px) and (max-width:991px){ 
+	.container div:nth-child(3){box-flex: justify-content-center;}
+
+}
+	
+/*small devices*/
+@media (max-width:767px){}
