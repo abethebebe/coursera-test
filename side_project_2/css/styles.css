@@ -38,9 +38,6 @@ h1 {
 	font-weight: normal;
 	color: #89CFF0;
 	margin: 0 10px 0 10px;
-	background-image: url(".../image/IMG_E5448.JPG");
-	background-repeat: no-repeatcd;
-
 }
 
 #usmaincontent h1 {
@@ -60,4 +57,18 @@ h1 {
 }
 #usmaincontent p { 
 	color:black; 
+}
+
+/*explorepage 1 Eskisehir*/
+#explorepage1 {
+	background-color:#89CFF0 ;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-family: Comic Sans MS;
+	text-align: center;
+}
+
+#explorepage1 .row {
+	padding: 10px 10px 10px 10px;
 }
