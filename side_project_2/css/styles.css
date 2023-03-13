@@ -59,16 +59,29 @@ h1 {
 	color:black; 
 }
 
-/*explorepage 1 Eskisehir*/
-#explorepage1 {
+/*explorepage 1 Eskisehir- a minisnippet of me and ebru*/
+
+/*set the page background design*/
+.gallery {
 	background-color:#89CFF0 ;
 	font-size: 1.5em;
 	text-transform: uppercase;
 	font-weight: bold;
 	font-family: Comic Sans MS;
 	text-align: center;
+	padding: 20px 0;
 }
 
-#explorepage1 .row {
-	padding: 10px 10px 10px 10px;
+/*separated the header from the navbar and photo gallery*/
+.gallery h1{
+	padding-bottom: 20px;
+}
+
+/*made the images look like an actual photo with some shadowing*/
+.gallery img{
+	background-color: #ffffff;
+	padding: 15px;
+	box-shadow: 0 0 15px rgba(0,0,0);
+	margin-bottom: 40px;
+	max-width: 100%;
 }
